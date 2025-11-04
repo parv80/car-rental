@@ -1,0 +1,57 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 2px solid var(--primary-color);
+  flex: 1;
+  min-width: 120px;
+}
+
+form .btn {
+  background: var(--accent-color);
+  color: var(--primary-color);
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.car-card {
+  background: var(--card-bg);
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.car-card h4 {
+  color: var(--primary-color);
+}
+
+.car-card p {
+  margin: 4px 0;
+}
+
+.car-card .btn {
+  background: var(--accent-color);
+  color: var(--primary-color);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.car-card .btn:hover { opacity: 0.9; }

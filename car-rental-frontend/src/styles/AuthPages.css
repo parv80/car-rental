@@ -1,0 +1,36 @@
+.auth-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--card-bg);
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-form h2 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="password"] {
+  padding: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 6px;
+}
+
+.auth-form .btn {
+  background: var(--accent-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-form .btn:hover { opacity: 0.9; }

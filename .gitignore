@@ -1,0 +1,19 @@
+# ---- React / Node ----
+car-rental-frontend/node_modules/
+car-rental-frontend/build/
+car-rental-frontend/.env
+car-rental-frontend/.cache/
+
+# ---- Spring Boot / Java ----
+car-rental-backend/target/
+car-rental-backend/.classpath
+car-rental-backend/.project
+car-rental-backend/.settings/
+car-rental-backend/.idea/
+
+# ---- VS Code & System ----
+.vscode/
+*.log
+.DS_Store
+*.class
+*.jar

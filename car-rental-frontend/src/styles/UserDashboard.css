@@ -1,0 +1,28 @@
+div {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}
+
+.booking-card {
+  background: var(--card-bg);
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.booking-card h4 {
+  color: var(--primary-color);
+  margin-bottom: 6px;
+}
+
+.booking-card p {
+  margin: 4px 0;
+  font-weight: bold;
+}

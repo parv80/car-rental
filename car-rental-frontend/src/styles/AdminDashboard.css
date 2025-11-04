@@ -1,0 +1,152 @@
+/* =============================
+   AdminDashboard.css
+   Theme: Black & Gold (Luxury Look)
+   ============================= */
+
+/* Global Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: #f5c542;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dashboard Container */
+div {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(20, 20, 20, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(245, 197, 66, 0.3);
+  transition: all 0.3s ease;
+}
+
+div:hover {
+  box-shadow: 0 0 40px rgba(245, 197, 66, 0.5);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffd700;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+
+h3 {
+  margin-top: 40px;
+  font-size: 1.6rem;
+  color: #ffcc33;
+  border-bottom: 2px solid #ffcc33;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+/* Stats Section */
+p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+  color: #f2f2f2;
+}
+
+p strong {
+  color: #ffd700;
+}
+
+/* Cars List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+li {
+  background: rgba(30, 30, 30, 0.9);
+  padding: 18px 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(245, 197, 66, 0.3);
+  color: #fff;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li:hover {
+  background: rgba(245, 197, 66, 0.1);
+  transform: translateY(-5px);
+  border-color: #ffd700;
+  box-shadow: 0 0 15px rgba(245, 197, 66, 0.4);
+}
+
+/* Manage Cars Button */
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  background: linear-gradient(135deg, #ffd700, #b8860b);
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 12px 25px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #ffcc00, #ffb300);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+  transform: scale(1.05);
+}
+
+/* Loading State */
+p:only-child {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffd700;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  div {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  ul {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  li {
+    font-size: 1rem;
+    padding: 14px;
+  }
+}
