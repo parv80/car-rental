@@ -1,0 +1,15 @@
+Enable the mysql first
+Create database car-rental
+Edit application.propertise db name password 
+
+my backend port 8081
+change the api url in frontend (src/service/api.js)
+frontend port 3000
+
+Backend run
+mvn clean install
+mvn spring-boot:run
+
+Frontend Run
+npm install
+npm start
